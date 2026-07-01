@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables (secrets)
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output artifacts (generated per-run, not committed)
+output/
+*.docx
+facts.json
+
+# Storage (local database files — per-deployment, not committed)
+storage/
+
+# Data files (too large for git; shared via other means)
+data/*.xlsx
+data/*.csv
+
+# Logs
+*.log
+
+# Frontend dependencies and generated files
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+
+# Local datasets and test exports
+data/
+test_data/
+
+# Tool caches
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
